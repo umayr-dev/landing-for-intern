@@ -1,0 +1,44 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px 10px;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    &__nav{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #505F98;
+         p{
+            &:hover {
+
+                color: black;
+            }
+        }
+    }
+    h1{
+        color: #505F98;
+        font-size: 34px;
+        &:hover{
+            color: black;
+        }
+    }
+    button{
+        width: 160px;
+        height: 26px;
+        background-color: #111B47;
+        border: none;
+        border-radius: 2px;
+        color: white;
+        text-align: center;
+        font-size: 14px;
+    }
+}
