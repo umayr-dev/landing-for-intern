@@ -43,3 +43,59 @@
         }
     }
 }
+.light-banner{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    padding: 40px 0;
+    &__content{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        width: 800px;
+        p{
+            color: #505F98;
+        }
+    }
+    &__card{
+        margin-top: 30px;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        row-gap: 10px;
+        h2{
+            font-size: 18px;
+            padding-bottom: 10px;
+        }
+    }
+}
+.fast-banner{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-around;
+    align-items: center;
+    &__content{
+        width: 450px;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        p{
+            color: #505F98;
+        }
+    }
+}
+.price-banner{
+    position: relative;
+    img{
+        width: 1519px;
+        position: absolute;
+        left: -120px;
+        right: 0;
+        top: 0;
+    }
+}

@@ -9,7 +9,12 @@ function BannerBottom() {
             mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
             <div className="light-banner__card">
                 <div>
-                    
+                    <h2>Title Goes Here</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                </div>
+                <div>
+                    <h2>Title Goes Here</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
                 </div>
             </div>
         </div>

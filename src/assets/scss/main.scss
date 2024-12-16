@@ -1,6 +1,6 @@
-@import './globals/variables';
-@import './globals/normalize';
-@import './globals/mixin';
-@import './globals/global';
-@import './components/header';
-@import './components/banner';
+@use './globals/variables';
+@use './globals/normalize';
+@use './globals/mixin';
+@use './globals/global';
+@use './components/header';
+@use './components/banner';
