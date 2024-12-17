@@ -10,7 +10,7 @@ function Banner() {
                 <br /> 
             mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
             <div className="banner__buttons">
-                <button>Purchase UI Kit</button>
+                <button onClick={()=>handlePurchase()}>Purchase UI Kit</button>
                 <button>Learn More</button>
             </div>
         </div>
